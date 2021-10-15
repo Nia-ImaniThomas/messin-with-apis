@@ -1,0 +1,31 @@
+
+GET https://xkcd.com/
+
+
+###
+
+GET https://nytimes.com/
+
+
+###
+GET https://davegregg.github.io/technical-interview-training-notes-2021-09-20/
+
+
+
+###
+
+
+GET https://jsonplaceholder.typicode.com/
+
+fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+    .then(response => response.json())
+    .then(pokemon => {
+        const img = document.createElement("img")
+        img.src = pokemon.sprites.front_default
+        document.body.append(img)
+    })
+
+
+###
+
+
